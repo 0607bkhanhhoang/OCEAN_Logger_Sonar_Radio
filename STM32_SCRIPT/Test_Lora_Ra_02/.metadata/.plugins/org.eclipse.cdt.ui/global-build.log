@@ -1,0 +1,27 @@
+11:32:31 **** Incremental Build of configuration Debug for project test_first_time_ra_02 ****
+make -j8 all 
+arm-none-eabi-gcc -o "test_first_time_ra_02.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\Test_Lora_Ra_02\test_first_time_ra_02\STM32F412RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_first_time_ra_02.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_first_time_ra_02.elf
+ 
+arm-none-eabi-size  test_first_time_ra_02.elf 
+arm-none-eabi-objdump -h -S test_first_time_ra_02.elf  > "test_first_time_ra_02.list"
+   text	   data	    bss	    dec	    hex	filename
+  13512	     12	   1708	  15232	   3b80	test_first_time_ra_02.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_first_time_ra_02.list
+ 
+11:32:36 **** Incremental Build of configuration Debug for project test_first_time_ra_02 ****
+make -j8 all 
+arm-none-eabi-size  test_first_time_ra_02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13512	     12	   1708	  15232	   3b80	test_first_time_ra_02.elf
+Finished building: default.size.stdout
+ 
+11:32:58 **** Incremental Build of configuration Debug for project test_first_time_ra_02 ****
+make -j8 all 
+arm-none-eabi-size  test_first_time_ra_02.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13512	     12	   1708	  15232	   3b80	test_first_time_ra_02.elf
+Finished building: default.size.stdout
+ 

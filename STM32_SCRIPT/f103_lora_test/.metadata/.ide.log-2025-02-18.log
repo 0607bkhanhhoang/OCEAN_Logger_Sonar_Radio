@@ -1,0 +1,34 @@
+2025-02-19 00:22:41,915 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 666854088 Bytes (1073741824)
+2025-02-19 00:22:43,594 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 714712608 Bytes (1073741824)
+2025-02-19 00:22:43,737 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-02-19 00:22:43,737 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-02-19 00:22:43,737 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-02-19 00:22:43,737 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-02-19 00:22:43,737 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-02-19 00:22:43,738 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-02-19 00:22:43,834 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\MXTmpFiles\license.tmp_save
+2025-02-19 00:22:43,914 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\MXTmpFiles\license.tmp
+2025-02-19 00:22:43,957 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\MXTmpFiles\gpio.tmp_save
+2025-02-19 00:22:44,042 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\MXTmpFiles\gpio.tmp
+2025-02-19 00:22:44,128 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Src\stm32f1xx_it.c_save
+2025-02-19 00:22:44,262 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Src\stm32f1xx_it.c
+2025-02-19 00:22:44,275 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Inc\stm32f1xx_it.h_save
+2025-02-19 00:22:44,340 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Inc\stm32f1xx_it.h
+2025-02-19 00:22:44,372 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Src\stm32f1xx_hal_msp.c_save
+2025-02-19 00:22:44,480 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Src\stm32f1xx_hal_msp.c
+2025-02-19 00:22:44,488 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\MXTmpFiles\system.tmp_save
+2025-02-19 00:22:44,535 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\MXTmpFiles\system.tmp
+2025-02-19 00:22:44,573 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-02-19 00:22:44,662 [INFO] CodeEngine:335 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Inc\stm32f1xx_hal_conf.h
+2025-02-19 00:22:44,715 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Inc\main.h_save
+2025-02-19 00:22:44,778 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Inc\main.h
+2025-02-19 00:22:44,801 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Src\main.c_save
+2025-02-19 00:22:44,903 [INFO] CodeEngine:279 - Generated code: C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\Core\Src\main.c
+2025-02-19 00:22:45,259 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 151mS.
+2025-02-19 00:22:45,262 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-02-19 00:22:45,346 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-02-19 00:22:46,278 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1015mS.
+2025-02-19 00:22:46,278 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-02-19 00:22:46,281 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-02-19 06:41:25,183 [INFO] WebApp:189 - Connection lost
+2025-02-19 06:41:26,196 [INFO] WebApp:186 - Connection restablished

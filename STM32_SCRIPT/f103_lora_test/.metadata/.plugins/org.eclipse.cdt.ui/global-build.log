@@ -1,0 +1,71 @@
+10:41:39 **** Incremental Build of configuration Debug for project lora_sender ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:127:20: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [-Wint-conversion]
+  127 |   memset(send_data,NULL,200);
+      |                    ^~~~
+      |                    |
+      |                    void *
+In file included from ../Core/Src/main.c:25:
+C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:33:26: note: expected 'int' but argument is of type 'void *'
+   33 | void *   memset (void *, int, size_t);
+      |                          ^~~
+../Core/Src/main.c:162:13: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+  162 |             snprintf(send_data,sizeof(send_data),"LoRa is running\n");
+      |             ^~~~~~~~
+../Core/Src/main.c:26:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   25 | #include "string.h"
+  +++ |+#include <stdio.h>
+   26 | /* USER CODE END Includes */
+../Core/Src/main.c:162:13: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+  162 |             snprintf(send_data,sizeof(send_data),"LoRa is running\n");
+      |             ^~~~~~~~
+../Core/Src/main.c:162:13: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c:169:13: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+  169 |             snprintf(send_data,sizeof(send_data),"\n\r LoRa failed :( \n\r Error code: %d \n\r", LoRa_status);
+      |             ^~~~~~~~
+../Core/Src/main.c:169:13: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c:132:11: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+  132 |   uint8_t temp;
+      |           ^~~~
+../Core/Src/main.c:131:11: warning: variable 'TxBuffer' set but not used [-Wunused-but-set-variable]
+  131 |   uint8_t TxBuffer[128];
+      |           ^~~~~~~~
+../Core/Src/main.c:126:12: warning: unused variable 'LoRa_status' [-Wunused-variable]
+  126 |   uint16_t LoRa_status = LoRa_init(&myLoRa);
+      |            ^~~~~~~~~~~
+arm-none-eabi-gcc -o "lora_sender.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\buikh\workspace\MY_THESIS\STM32_SCRIPT\f103_lora_test\lora_sender\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lora_sender.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lora_sender.elf
+ 
+arm-none-eabi-size  lora_sender.elf 
+arm-none-eabi-objdump -h -S lora_sender.elf  > "lora_sender.list"
+arm-none-eabi-objcopy  -O ihex lora_sender.elf  "lora_sender.hex"
+   text	   data	    bss	    dec	    hex	filename
+  35068	    468	   2108	  37644	   930c	lora_sender.elf
+arm-none-eabi-objcopy  -O binary lora_sender.elf  "lora_sender.bin"
+arm-none-eabi-objcopy  -O srec lora_sender.elf  "lora_sender.srec"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O symbolsrec lora_sender.elf  "lora_sender.symbolsrec"
+ 
+Finished building: lora_sender.hex
+Finished building: lora_sender.bin
+Finished building: lora_sender.srec
+ 
+Finished building: lora_sender.symbolsrec
+ 
+ 
+ 
+Finished building: lora_sender.list
+ 
+10:41:42 **** Incremental Build of configuration Debug for project lora_sender ****
+make -j8 all 
+arm-none-eabi-size  lora_sender.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35068	    468	   2108	  37644	   930c	lora_sender.elf
+Finished building: default.size.stdout
+ 
